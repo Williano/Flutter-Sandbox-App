@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_sandbox/screens/nested_bottom_navigation_bar_screen.dart';
 import 'package:flutter_sandbox/screens/sliver_screen.dart';
 
 void main() => runApp(SandboxApp());
@@ -12,7 +13,7 @@ class SandboxApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SliverScreen(),
+      home: HomePage(),
     );
   }
 }
